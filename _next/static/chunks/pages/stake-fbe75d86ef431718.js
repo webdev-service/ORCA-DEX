@@ -48211,7 +48211,7 @@ var getCustomMeta = function(path, t) {
             };
         case "/swap":
             return {
-                title: "".concat(t("Exchange"), " | ").concat(t("Atlas DEX"))
+                title: "".concat(t("Exchange"), " | ").concat(t("ORCA"))
             };
         case "/stake":
             return {
@@ -50082,7 +50082,7 @@ var InfoToolTip = function(param) {
         children: [
             "1 xATS =",
             /*#__PURE__*/ (0,jsx_runtime.jsx)(index_esm/* AiOutlineInfoCircle */.ocf, {
-                "data-tip": '<strong style="margin-top:15px;">'.concat(t("Stake your ATS tokens and earn 75% of generated trading fees and %s% APY.").replace("%s", apyPercent), "</strong> </br> ").concat(t("Your ATS tokens grow as the xATS multiplier grows. Tokens are 100% unlocked when they are claimed."), " ").concat(t("Atlas DEX does not have withdrawal fees.")),
+                "data-tip": '<strong style="margin-top:15px;">'.concat(t("Stake your ATS tokens and earn 75% of generated trading fees and %s% APY.").replace("%s", apyPercent), "</strong> </br> ").concat(t("Your ATS tokens grow as the xATS multiplier grows. Tokens are 100% unlocked when they are claimed."), " ").concat(t("ORCA does not have withdrawal fees.")),
                 className: "mb-1 info-icon",
                 size: "16px"
             }),
